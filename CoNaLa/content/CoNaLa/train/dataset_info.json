@@ -1,0 +1,62 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "co_na_la-large",
+  "dataset_size": 2605644,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/AhmedSSoliman/CoNaLa-Large@c3f27c76eea3fbce35df6619876d0e9040974d95/train.csv": {
+      "num_bytes": 2318188,
+      "checksum": null
+    },
+    "hf://datasets/AhmedSSoliman/CoNaLa-Large@c3f27c76eea3fbce35df6619876d0e9040974d95/validation.csv": {
+      "num_bytes": 116507,
+      "checksum": null
+    },
+    "hf://datasets/AhmedSSoliman/CoNaLa-Large@c3f27c76eea3fbce35df6619876d0e9040974d95/test.csv": {
+      "num_bytes": 51804,
+      "checksum": null
+    }
+  },
+  "download_size": 2486499,
+  "features": {
+    "intent": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "snippet": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 5092143,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2429762,
+      "num_examples": 24687,
+      "dataset_name": "co_na_la-large"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 122110,
+      "num_examples": 1237,
+      "dataset_name": "co_na_la-large"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 53772,
+      "num_examples": 500,
+      "dataset_name": "co_na_la-large"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
