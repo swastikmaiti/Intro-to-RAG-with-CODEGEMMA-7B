@@ -11,3 +11,11 @@ Developer can choose to interact with Curl API via CLI or with OpenAI API via py
 
 
 LLM used @[TheBloke/Mistral-7B-Instruct-v0.1-GGUF](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF)
+
+### Example
+
+```python
+user_prompt: "how to sort list in python"
+
+model out_put: {'intent': 'sorting the lists in list of lists `data`', 'snippet': '[sorted(item) for item in data]'}, {'intent': 'sorting the lists in list of lists `data` with custom sorting function `func`', 'snippet': '[sorted(item, key=func) for item in data]'}
+```
