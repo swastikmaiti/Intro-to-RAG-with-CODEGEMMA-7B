@@ -3,6 +3,11 @@
 This work implements a simple RAG system with `Google\Codegemma:7b` , `Qdrant as VectorDB` and `CoNaLa` dataset
 We develop a simple app with `GRADIO` and create `Dcoker` image for conatiner runtime.
 
+## Gradio App UI
+
+<img src="https://github.com/swastikmaiti/RAG_with_local_LLM/blob/8d8b0bd8e413bc3e720de6e82162c5bf20e280e7/gradio-ui.png">
+<img src="https://github.com/swastikmaiti/RAG_with_local_LLM/blob/8d8b0bd8e413bc3e720de6e82162c5bf20e280e7/llm-output.png">
+
 # File Structures
 
 - ***rag_localLLM.ipynb:*** This notebook contains code and explanation for implementing RAG with Codegemma.
