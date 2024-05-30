@@ -21,11 +21,14 @@ We develop a simple app with `GRADIO` and create `Dcoker` image for conatiner ru
 - **Vector Database:** Qdrant
 - **application framework:** Gradio
 - **LLM:** Google\Codege
+- ***LLM server:** Ollama
 - **Embedding:** all-MiniLM-L6-v2
 
 # Docker 
-The docker image of the app is pushed to docker hub.
+The docker image of the app is pushed to docker hub. To run the application we need Linux System with minimun 8GB Memory.
 To run the app simply execute the command
 ```
 docker compose up
 ```
+
+### If you find the repo helpful, please drop a ⭐
