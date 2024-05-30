@@ -25,7 +25,7 @@ We develop a simple app with `GRADIO` and create `Dcoker` image for conatiner ru
 
 - **Vector Database:** Qdrant
 - **application framework:** Gradio
-- **LLM:** Google\Codege
+- **LLM:** Google\Codegemma
 - ***LLM server:** Ollama
 - **Embedding:** all-MiniLM-L6-v2
 
