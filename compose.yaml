@@ -1,0 +1,23 @@
+services:
+  server:
+    image: swastikmaiti/simple_codegemma_rag:v1
+    environment:
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL-http://ollama:11434}
+    ports:
+      - 7860:7860
+    depends_on:
+      ollama-pull:
+        condition: service_completed_successfully
+  ollama-pull:
+    image: docker/genai:ollama-pull
+    environment:
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL-http://ollama:11434}
+      - LLM=${LLM-codegemma}
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_volume:/root/.ollama
+volumes:
+  ollama_volume:
