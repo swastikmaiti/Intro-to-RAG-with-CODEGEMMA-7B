@@ -36,4 +36,5 @@ To run the app simply execute the command
 docker compose up
 ```
 
+#
 ### If you find the repo helpful, please drop a ⭐
