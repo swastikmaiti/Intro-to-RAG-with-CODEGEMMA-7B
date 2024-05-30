@@ -1,6 +1,6 @@
 # Simple RAG with CODEGEMMA:7B 
 
-This work implements a simple RAG system with `Google\Codegemma:7b` , `Qdrant as VectorDB` and `CoNaLa` dataset
+This work implements a simple RAG system with `Google\Codegemma:7b` , `Qdrant as VectorDB` and `CoNaLa` dataset.
 We develop a simple app with `GRADIO` and create `Dcoker` image for conatiner runtime.
 
 ## Gradio App UI
