@@ -26,8 +26,9 @@ We develop a simple app with `GRADIO` and create `Dcoker` image for conatiner ru
 - **Vector Database:** Qdrant
 - **application framework:** Gradio
 - **LLM:** Google\Codegemma
-- ***LLM server:** Ollama
+- **LLM server:** Ollama
 - **Embedding:** all-MiniLM-L6-v2
+- **Database:**CoNaLa
 
 # Docker 
 The docker image of the app is pushed to docker hub. To run the application we need Linux System with minimun 8GB Memory.
